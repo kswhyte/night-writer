@@ -22,11 +22,6 @@ $ ruby ./lib/night_write.rb message.txt braille.txt
 Created 'braille.txt' containing 256 characters
 That will use the plaintext file message.txt to create a Braille simulation file braille.txt.
 
-***
-## Authors
-Alisher Sadikov & Kinan Whyte
-
-
 To convert that Braille simulation back to normal text write:
 
 $ ruby ./lib/night_read.rb braille.txt original_message.txt
@@ -68,3 +63,8 @@ About this point, you should try Braille-ifying a message. Then it's time to div
 
 #### Extension Supporting Numbers
 The representations for 1-9 are actually the same as a-i. This number sign # is a "switch" which means that all of the following "letters", up to the next space, are actually numbers. After the space it's assumed that we're back to words/letters unless we see another number switch.
+
+***
+## Authors
+Alisher Sadikov & Kinan Whyte
+
