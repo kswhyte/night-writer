@@ -22,6 +22,11 @@ $ ruby ./lib/night_write.rb message.txt braille.txt
 Created 'braille.txt' containing 256 characters
 That will use the plaintext file message.txt to create a Braille simulation file braille.txt.
 
+***
+## Authors
+Alisher Sadikov & Kinan Whyte
+
+
 To convert that Braille simulation back to normal text write:
 
 $ ruby ./lib/night_read.rb braille.txt original_message.txt
